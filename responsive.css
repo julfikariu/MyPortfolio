@@ -1,0 +1,293 @@
+/*		Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-control.right {
+        left: 0px;
+        display: none;
+    }
+    .carousel-control.left {
+        left: -169px;
+    }
+    .slider_area_heading h1 {
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .slider_area_heading button {
+        margin-left: 10%;
+        margin-top: 8%;
+        padding: 5px 10px;
+    }
+    .portfolio_different_skil{
+        margin-right: 8px;
+    }
+    .copyright_me button{
+        padding: 10px 45px;
+    }
+    #myCarousel > .carousel-inner{
+        height: 680px;
+    }
+
+
+}
+/*		Tablet Layout: 768px. */
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .carousel-control.right {
+        left: 0px;
+        display: none;
+    }
+    .home_button {
+        left: 20px;
+        top: 20px;
+    }
+    .download_button button{
+        padding: 5px 10px;
+        top: 20px;
+        right: 5%;
+    }
+    .my_picture img {
+        left: 30.1%;
+    }
+    .slider_area_heading h1 {
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .my_name h1{
+        font-size: 50px;
+        margin-top: 230px;
+    }
+    .my_name h3 {
+        letter-spacing: 0px;
+    }
+    .slider_area_heading button {
+        margin-left: 40.9%;
+        margin-top: 0%;
+        padding: 5px 10px;
+    }
+    .about_me_right ul,.about_me_right p, .about_me_left p {
+        text-align: center;
+    }
+    .carousel {
+        padding-bottom: 30px;
+    }
+    .carousel-indicators {
+        bottom: 0px;
+    }
+
+    .portfolio_different_skil {
+        margin-right: 13px;
+        padding-top: 14.4%;
+        width: 47%;
+    }
+    .id-contact-left {
+        width: 100%;
+    }
+    .contact_me {
+        padding-left: 13px;
+    }
+    .emil_margin {
+        margin-top: 14px;
+    }
+    .input_emil_area input,.subject_area input{
+        padding: 5px;
+    }
+    .subject_area textarea{
+        padding: 5px;
+    }
+    .send_button_area button{
+        color: #fff;
+    }
+    .follow_me {
+        text-align: left;
+        width: 35%;
+        float: left;
+    }
+    .copyright_me {
+        text-align: right;
+        float: right;
+        width: 64%;
+    }
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 321px) and (max-width: 576px)  {
+    .carousel-inner {
+        height: 720px;
+    }
+    .carousel-control.right {
+        left: 0px;
+        display: none;
+    }
+    .home_button {
+        left: 20px;
+        top: 20px;
+    }
+    .download_button button{
+        padding: 5px;
+        top: 20px;
+        right: 2%;
+    }
+    .my_picture img {
+        left: 15.1%;
+    }
+    .slider_area_heading h1 {
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .my_name h1{
+        font-size: 50px;
+        margin-top: 230px;
+    }
+    .my_name h3 {
+        letter-spacing: 0px;
+    }
+    .slider_area_heading button {
+        margin-left: 24.9%;
+        margin-top: 0%;
+        padding: 5px;
+    }
+    .about_me_right ul,.about_me_right p, .about_me_left p {
+      text-align: center;
+    }
+    .carousel {
+        padding-bottom: 30px;
+    }
+    .carousel-indicators {
+        bottom: 0px;
+    }
+
+    .portfolio_different_skil {
+        margin-right: 7px;
+        padding-top: 14.4%;
+        width: 47%;
+    }
+    .id-contact-left {
+        width: 100%;
+    }
+    .contact_me {
+        padding-left: 13px;
+    }
+    .emil_margin {
+        margin-top: 14px;
+    }
+    .input_emil_area input,.subject_area input{
+        padding: 5px;
+    }
+    .subject_area textarea{
+        padding: 5px;
+    }
+    .send_button_area button{
+        color: #fff;
+    }
+    .copyright_me button{
+        padding: 10px 20px;
+    }
+    .copyright_me p {
+        text-align: center;
+    }
+    .copyright_me p {
+        margin-right: 0px;
+    }
+
+}
+
+
+                                /*	Mobile Layout: 320px. */
+
+@media only screen and (max-width: 320px) {
+    .carousel-inner {
+        height: 720px;
+    }
+    .carousel-control.right {
+        left: 0px;
+        display: none;
+    }
+    .home_button {
+        left: 20px;
+        top: 20px;
+    }
+    .download_button button{
+        padding: 5px;
+        top: 20px;
+        right: 0;
+    }
+    .my_picture img {
+        left: 2.1%;
+    }
+    .slider_area_heading h1 {
+        letter-spacing: 0px;
+        margin-bottom: 60px;
+        font-size: 25px;;
+    }
+    .my_name h1{
+        font-size: 50px;
+        margin-top: 230px;
+    }
+    .my_name h3 {
+        letter-spacing: 0px;
+    }
+    .slider_area_heading button {
+        margin-left: 1.9%;
+        margin-top: 0%;
+        padding: 5px;
+    }
+    .about_me_left h1 {
+        letter-spacing: 0px;
+        position: relative;
+        font-size: 25px;
+    }
+    .about_me_right ul,.about_me_right p, .about_me_left p {
+        text-align: center;
+    }
+    .carousel {
+        padding-bottom: 30px;
+    }
+    .carousel-indicators {
+        bottom: 0px;
+    }
+
+    .portfolio_different_skil {
+        margin-right: 3px;
+        padding-top: 14.4%;
+        width: 48%;
+    }
+    .id-contact-left {
+        width: 100%;
+    }
+    .contact_me {
+        padding-left: 13px;
+    }
+    .address_bar p span {
+        margin-left: 26px;
+    }
+    .emil_margin {
+        margin-top: 14px;
+    }
+    .input_emil_area input,.subject_area input{
+        padding: 5px;
+    }
+    .subject_area textarea{
+        padding: 5px;
+    }
+    .send_button_area button{
+        color: #fff;
+    }
+    .copyright_me button{
+        padding: 9px;
+    }
+    .copyright_me p {
+        text-align: center;
+    }
+    .copyright_me p {
+        margin-right: 0px;
+    }
+
+}
+
+

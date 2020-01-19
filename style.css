@@ -1,0 +1,549 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header_area{
+	background:url(img/header_back.jpg) no-repeat fixed 50% 50% /cover;
+	min-height:630px;
+}
+.my_name{
+	text-align:center;
+}
+.my_name h1{
+	color: #fff;
+	margin-top:23%;
+    font-size: 94px;
+    text-transform: capitalize;
+	
+}
+.my_name h3{
+	text-transform:uppercase;
+	word-spacing:2px;
+	letter-spacing: 5px;
+	color:#7AA3BA;
+}
+		/*END header style */
+.home_download_button{}
+.home_button{
+	left: 50px;
+    position: fixed;
+    top: 55px;
+    z-index: 99999;
+}
+.home_button button{
+	 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.download_button button{
+	 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #fff;
+    margin-left: 100px;
+    padding: 10px 49px;
+    text-transform: uppercase;
+	color:#fff;
+	z-index:66;
+	position:fixed;
+	top:40px;
+	right:82px;
+	transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+}
+.download_button button:hover{
+	background:#fff;
+	color:#DF3143;
+	border-color:#DF3143
+}
+	/*end home download button*/
+		
+.mypicture_area{
+	background:#EDEFF5;
+	min-height:210px;
+}
+.my_picture{
+	position:relative;
+	text-align:center;
+}
+.my_picture img{
+	border: 6px solid #edeff5;
+    border-radius: 50%;
+    left: 36.1%;
+    position: absolute;
+    top: -120px;
+}
+		/*end my picture area style*/
+.about_julfikar{
+	background:#EDEFF5;
+}
+.about_me_secton_area{}
+.about_me_left{}
+.about_me_left h1{
+	letter-spacing: 3px;
+    margin-bottom: 80px;
+    position: relative;
+    text-transform: uppercase;
+	font-size: 37px;
+	font-weight:700;
+}
+.about_me_left h1:after{
+	background: #DF3143 none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 58px;
+    width: 60px;
+}
+.about_me_left p span{}
+.about_me_left p{}
+.about_me_right{
+
+}
+.about_me_right ul{
+	list-style: outside none none;
+	margin-top:20px;
+    padding: 0;
+}
+.about_me_right ul li{
+	display:inline;
+	margin-right: 12px;
+}
+.about_me_right ul li a{
+	background: #000 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #edeff5;
+    display: inline-block;
+    font-size: 20px;
+    height: 32px;
+    padding: 3px;
+    text-align: center;
+    width: 32px;
+}
+.about_me_right ul li a:hover{
+	color:#31BADF;
+	transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+}
+.about_me_right p{
+	margin-top:88px;
+}
+.about_me_right p,.about_me_left p{
+	font-size:16px;
+}
+.about_me_right span,.about_me_left span{
+	text-transform:uppercase;
+}
+
+
+.experience_section_area{}
+
+.slider_area_heading{}
+.slider_area_heading h1{
+	letter-spacing: 3px;
+    margin-bottom: 80px;
+    position: relative;
+    text-transform: uppercase;
+	font-size: 37px;
+	font-weight:700;
+}
+.slider_area_heading h1:after{
+	background: #DF3143 none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 58px;
+    width: 60px;
+}
+.slider_area_heading button{
+	 background: #fff none repeat scroll 0 0;
+    border: 1px solid #000;
+    color: #000;
+    margin-left: 29.9%;
+    margin-top: 5%;
+    padding: 8px 20px;
+    text-transform: uppercase;
+	transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+}
+.slider_area_heading button:hover{
+	background:#fff;
+	color:#DF3143;
+	border-color:#DF3143
+}
+
+.experience_bottom{}
+
+
+.experience_frelance_rows ol{
+	margin-left: -15px;
+    padding-top: 30px;
+}
+.experience_frelance_rows ol li{
+	font-size:18px;
+}
+.experience_frelance_rows ol li span{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.experience_frelance{}
+.experience_frelance h2{
+	font-size: 22px;
+    margin-bottom: 2px;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+.experience_frelance h3{
+	 color: #94A3BF;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+.experience_frelance p{}
+.experience_frelance p:first-letter{
+	text-transform:uppercase;
+}
+
+
+.education_section_area{}
+
+.hobbies_section_area{}
+.hobbies_interest_section{}
+.interests_hobbies{
+	text-align:center;
+	position:relative;
+}
+
+.interests_hobbies p{
+	text-transform:capitalize;
+	margin-top:15px;
+}
+
+
+		/*carousel area style*/
+
+.carousel-control.left,.carousel-control.right{
+	background:none;
+}
+.carousel-control.left{
+	 left: -139px;
+}
+.carousel-control.right{
+    left: 1074px;
+}
+.carousel-indicators {
+    bottom: 30px;
+}
+.carousel-inner > .item {
+	min-height: 410px;
+}
+.carousel {
+    min-height: 450px;
+}
+.carousel-indicators li{
+	margin:1px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+.carousel-indicators .active {
+    background-color: #2E4975;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+	margin:1px;
+}
+.carousel-indicators li {
+	border: 2px solid #2e4975;
+}
+
+span.glyphicon img{
+     left: -25px;
+    margin-top: 85%;
+    position: absolute;
+    top: 141px;
+}
+
+		
+
+	/*end about slider style*/
+.my_skills_area{
+	background: rgba(0, 0, 0, 0) url("img/billboard-bg.jpg") no-repeat fixed 50% 50% /cover;
+	 padding-bottom: 150px;
+    padding-top: 90px;
+}
+.portfolio_area_top{}
+.portfolio_heading{
+
+}
+.portfolio_heading h1{
+	letter-spacing: 5px;
+    margin-bottom: 80px;
+    position: relative;
+    text-transform: uppercase;
+	color:#fff;
+}
+.portfolio_heading h1:after{
+	background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 58px;
+    width: 60px;
+}
+.portfolio_area_bottom{
+	margin-left:0px;
+}
+.portfolio_different_skil{
+	background: #bbc8dd none repeat scroll 0 0;
+    height: 210px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 8.4%;
+    text-align: center;
+    width: 32%;
+	transition:0.3s;
+	-moz-transition:0.3s;
+	-webkit-transition:0.3s;
+	-ms-transition:0.3s;
+}
+.portfolio_different_skil:hover{
+	background:#4F5661;
+}
+.portfolio_different_skil a{
+	color:#111;
+	text-decoration:none;
+}
+.portfolio_different_skil a:hover{
+	color:#111;
+	text-decoration:none;
+}
+.portfolio_different_skil h2{
+	color:#5472C7;
+	margin-top: -7px;
+	text-transform:capitalize;
+}
+.portfolio_different_skil h4{
+	text-transform:uppercase;
+	
+}
+.portfolio_different_skil p{
+	 font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+	
+	/*end my picture area style*/
+.id_contact_area{
+	position:relative;
+    padding-bottom: 85px;
+    padding-top: 50px;
+}
+
+.id-contact-bg {
+    background: #BBC8DD none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.id-contact-left {
+    background: #2e4975 none repeat scroll 0 0;
+    height: 100%;
+    width: 47.5%;
+}
+
+
+
+
+.quick_id{
+	color:#fff;
+}
+
+.quick_id h1{
+	letter-spacing: 3px;
+    margin-bottom: 80px;
+    position: relative;
+    text-transform: uppercase;
+}
+.quick_id h1:after{
+	background: #DF3143 none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 58px;
+    width: 60px;
+}
+.address_bar{}
+.address_bar p{
+	font-size: 18px;
+    text-transform: capitalize;
+}
+.address_bar p span{
+	margin-left: 70px;
+	font-size:17px;
+	text-transform:none;
+}
+.contact_me{
+	padding-left: 45px;
+}
+.contact_me h2{
+	color: #070a0e;
+    letter-spacing: 4px;
+    margin-bottom: 82px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+}
+.contact_me h2:after{
+	background: #DF3143 none repeat scroll 0 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 58px;
+    width: 60px;
+}
+.input_emil_area{}
+.input_emil_area input{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #bbc8dd none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #000;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #6f84a5;
+    float: left;
+    font-size: 16px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    width: 100%;
+}
+.emil_margin{}
+.subject_area{}
+.subject_area input{
+	width:100%;
+	margin-top:20px;
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #bbc8dd none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #000;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #6f84a5;
+    float: left;
+    font-size: 16px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+.subject_area textarea{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #bbc8dd none repeat scroll 0 0;
+    border-color: #000;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #6f84a5;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    width: 100%;
+}
+.send_button_area{
+	text-align:center;
+}
+.send_button_area button{
+	 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    font-size: 19px;
+    margin-top: 5px;
+    padding: 5px 60px;
+    text-transform: capitalize;
+}
+		/* end of contact area style*/
+.footer_area{
+	background:#EDEFF5;
+	padding:40px 0;
+}
+.copyright_me{
+	text-align:right;
+}
+.copyright_me button{
+	 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #012;
+    padding: 10px 102px;
+	margin-right:25px;
+    text-transform: uppercase;
+	transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+}
+.copyright_me button:hover{
+	background:#fff;
+	color:#DF3143;
+	border-color:#DF3143;
+}
+.copyright_me p{
+	margin-right: 92px;
+    margin-top: 22px;
+}
+
+.follow_me{
+	text-align:center;
+}
+.follow_me ul{
+	list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.follow_me ul li{
+	display:inline;
+	margin-right: 12px;
+}
+.follow_me ul li a{
+	background: #000 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #edeff5;
+    display: inline-block;
+    font-size: 20px;
+    height: 32px;
+    padding: 3px;
+    text-align: center;
+    width: 32px;
+}
+.follow_me ul li a:hover{
+	color:#31BADF;
+	transition:0.4s;
+	-moz-transition:0.4s;
+	-webkit-transition:0.4s;
+}
+.follow_me p{
+	 margin-top: 32px;
+}
+
+
+
+
+
+
